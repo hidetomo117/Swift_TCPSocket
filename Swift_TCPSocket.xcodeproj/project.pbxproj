@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		56378A0022A4DF77005B9056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563789FF22A4DF77005B9056 /* AppDelegate.swift */; };
-		56378A0222A4DF77005B9056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56378A0122A4DF77005B9056 /* ViewController.swift */; };
-		56378A0522A4DF77005B9056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56378A0322A4DF77005B9056 /* Main.storyboard */; };
 		56378A0722A4DF78005B9056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56378A0622A4DF78005B9056 /* Assets.xcassets */; };
-		56378A0A22A4DF78005B9056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56378A0822A4DF78005B9056 /* LaunchScreen.storyboard */; };
 		56378A1522A4DF78005B9056 /* Swift_TCPSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56378A1422A4DF78005B9056 /* Swift_TCPSocketTests.swift */; };
 		56378A2022A4DF78005B9056 /* Swift_TCPSocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56378A1F22A4DF78005B9056 /* Swift_TCPSocketUITests.swift */; };
+		56A38CE322ABE17E001B0A9C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A38CE222ABE17E001B0A9C /* MessageViewController.swift */; };
+		56A38CE522ABE192001B0A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A38CE422ABE192001B0A9C /* LaunchScreen.storyboard */; };
+		56A38CE722ABE1B6001B0A9C /* MessageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A38CE622ABE1B6001B0A9C /* MessageViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +36,7 @@
 /* Begin PBXFileReference section */
 		563789FC22A4DF77005B9056 /* Swift_TCPSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_TCPSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563789FF22A4DF77005B9056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56378A0122A4DF77005B9056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56378A0422A4DF77005B9056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56378A0622A4DF78005B9056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56378A0922A4DF78005B9056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56378A0B22A4DF78005B9056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56378A1022A4DF78005B9056 /* Swift_TCPSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_TCPSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56378A1422A4DF78005B9056 /* Swift_TCPSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TCPSocketTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,9 @@
 		56378A1B22A4DF78005B9056 /* Swift_TCPSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_TCPSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56378A1F22A4DF78005B9056 /* Swift_TCPSocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TCPSocketUITests.swift; sourceTree = "<group>"; };
 		56378A2122A4DF78005B9056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A38CE222ABE17E001B0A9C /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		56A38CE422ABE192001B0A9C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56A38CE622ABE1B6001B0A9C /* MessageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MessageViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,8 @@
 		563789FE22A4DF77005B9056 /* Swift_TCPSocket */ = {
 			isa = PBXGroup;
 			children = (
-				563789FF22A4DF77005B9056 /* AppDelegate.swift */,
-				56378A0122A4DF77005B9056 /* ViewController.swift */,
-				56378A0322A4DF77005B9056 /* Main.storyboard */,
-				56378A0622A4DF78005B9056 /* Assets.xcassets */,
-				56378A0822A4DF78005B9056 /* LaunchScreen.storyboard */,
-				56378A0B22A4DF78005B9056 /* Info.plist */,
+				56A38CDF22ABE0A9001B0A9C /* ViewController */,
+				56A38CDE22ABE041001B0A9C /* Other */,
 			);
 			path = Swift_TCPSocket;
 			sourceTree = "<group>";
@@ -123,6 +119,42 @@
 				56378A2122A4DF78005B9056 /* Info.plist */,
 			);
 			path = Swift_TCPSocketUITests;
+			sourceTree = "<group>";
+		};
+		56A38CDE22ABE041001B0A9C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				563789FF22A4DF77005B9056 /* AppDelegate.swift */,
+				56378A0622A4DF78005B9056 /* Assets.xcassets */,
+				56378A0B22A4DF78005B9056 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		56A38CDF22ABE0A9001B0A9C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				56A38CE122ABE0BB001B0A9C /* Message */,
+				56A38CE022ABE0B4001B0A9C /* Launch */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		56A38CE022ABE0B4001B0A9C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				56A38CE422ABE192001B0A9C /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		56A38CE122ABE0BB001B0A9C /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				56A38CE622ABE1B6001B0A9C /* MessageViewController.storyboard */,
+				56A38CE222ABE17E001B0A9C /* MessageViewController.swift */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56378A0A22A4DF78005B9056 /* LaunchScreen.storyboard in Resources */,
+				56A38CE522ABE192001B0A9C /* LaunchScreen.storyboard in Resources */,
+				56A38CE722ABE1B6001B0A9C /* MessageViewController.storyboard in Resources */,
 				56378A0722A4DF78005B9056 /* Assets.xcassets in Resources */,
-				56378A0522A4DF77005B9056 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56378A0222A4DF77005B9056 /* ViewController.swift in Sources */,
+				56A38CE322ABE17E001B0A9C /* MessageViewController.swift in Sources */,
 				56378A0022A4DF77005B9056 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +323,6 @@
 			targetProxy = 56378A1C22A4DF78005B9056 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		56378A0322A4DF77005B9056 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56378A0422A4DF77005B9056 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		56378A0822A4DF78005B9056 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56378A0922A4DF78005B9056 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		56378A2222A4DF78005B9056 /* Debug */ = {
@@ -434,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LY3B67W33;
-				INFOPLIST_FILE = Swift_TCPSocket/Info.plist;
+				INFOPLIST_FILE = Swift_TCPSocket/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LY3B67W33;
-				INFOPLIST_FILE = Swift_TCPSocket/Info.plist;
+				INFOPLIST_FILE = Swift_TCPSocket/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
